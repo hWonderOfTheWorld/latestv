@@ -176,7 +176,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 
       const _controller = controller.connect(await ethers.getSigner(registrant))
       const commitTx = await _controller.commit(commitment, { nonce: nonce + index })
-      console.log(`Commiting commitment for ${label}.eth (tx: ${commitTx.hash})...`)
+      console.log(`Commiting commitment for ${label}.ip (tx: ${commitTx.hash})...`)
 
       return 1
     }
@@ -203,7 +203,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
           nonce: nonce + index,
         },
       )
-      console.log(`Registering name ${label}.eth (tx: ${registerTx.hash})...`)
+      console.log(`Registering name ${label}.ip (tx: ${registerTx.hash})...`)
 
       return 1
     }
@@ -218,8 +218,8 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
       let nonceRef = nonce + index
       const _publicResolver = publicResolver.connect(await ethers.getSigner(registrant))
 
-      const hash = namehash(`${label}.eth`)
-      console.log(`Setting records for ${label}.eth...`)
+      const hash = namehash(`${label}.ip`)
+      console.log(`Setting records for ${label}.ip...`)
       if (records.text) {
         console.log('TEXT')
         for (const { key, value } of records.text) {
@@ -267,7 +267,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
         const subOwner = allNamedAccts[namedSubOwner]
         const _registry = registry.connect(await ethers.getSigner(registrant))
         const subnameTx = await _registry.setSubnodeRecord(
-          namehash(`${label}.eth`),
+          namehash(`${label}.ip`),
           labelhash(subnameLabel),
           subOwner,
           resolver,
@@ -276,7 +276,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
             nonce: nonce + index + i,
           },
         )
-        console.log(`Creating subname ${subnameLabel}.${label}.eth (tx: ${subnameTx.hash})...`)
+        console.log(`Creating subname ${subnameLabel}.${label}.ip (tx: ${subnameTx.hash})...`)
       }
       return subnames.length
     }
@@ -285,11 +285,11 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     (nonce: number) =>
     async ({ label, owner, registrant }: ReturnType<typeof makeData>, index: number) => {
       const _registry = registry.connect(await ethers.getSigner(registrant))
-      const setControllerTx = await _registry.setOwner(namehash(`${label}.eth`), owner, {
+      const setControllerTx = await _registry.setOwner(namehash(`${label}.ip`), owner, {
         nonce: nonce + index,
       })
       console.log(
-        `Setting controller for ${label}.eth to ${owner} (tx: ${setControllerTx.hash})...`,
+        `Setting controller for ${label}.ip to ${owner} (tx: ${setControllerTx.hash})...`,
       )
 
       return 1

@@ -31,14 +31,14 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
       type === 'text'
         ? [
             publicResolver.interface.encodeFunctionData('setText', [
-              namehash(`${label}.eth`),
+              namehash(`${label}.ip`),
               'url1',
               bigvalue,
             ]),
           ]
         : [
             publicResolver.interface.encodeFunctionData('setAddr(bytes32,uint256,bytes)', [
-              namehash(`${label}.eth`),
+              namehash(`${label}.ip`),
               '61',
               `0x${n === 1 ? '0a' : bigvalue}`,
             ]),
@@ -93,7 +93,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 
       const _controller = controller.connect(await ethers.getSigner(owner))
       const commitTx = await _controller.commit(commitment, { nonce: nonce + index })
-      console.log(`Commiting commitment for ${label}.eth (tx: ${commitTx.hash})...`)
+      console.log(`Commiting commitment for ${label}.ip (tx: ${commitTx.hash})...`)
       return commitment
     }
 

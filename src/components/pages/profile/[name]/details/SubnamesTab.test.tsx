@@ -28,7 +28,7 @@ const mockIntersectionObserver = jest.fn()
 
 const makeSubname = (_: any, i: number) => {
   const label = `test-${i}`
-  const name = `${label}.eth`
+  const name = `${label}.ip`
   const nameHash = namehash(name)
   const labelHash = labelhash(label)
   const owner = {

@@ -37,10 +37,10 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 
   for (const { label, namedOwner, records } of names) {
     const registrant = allNamedAccts[namedOwner]
-    const hash = namehash(`${label}.eth`)
+    const hash = namehash(`${label}.ip`)
     const _publicResolver = publicResolver.connect(await ethers.getSigner(registrant))
 
-    console.log(`Migrating records for ${label}.eth...`)
+    console.log(`Migrating records for ${label}.ip...`)
     if (records.text) {
       console.log('TEXT')
       for (const { key, value } of records.text) {
