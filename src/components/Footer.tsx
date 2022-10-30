@@ -63,8 +63,6 @@ const SocialIconContainer = styled.div(
 )
 
 export const Footer = () => {
-//  const { t } = useTranslation('common')
-
   return (
     <Container>
       <LanugageDropdown invert />
