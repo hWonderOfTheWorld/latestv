@@ -217,7 +217,7 @@
   },
   "search": {
     "label": "Name search",
-    "placeholder": "Search for a name",
+    "placeholder": "Search for sum ip",
     "emptyText": "Type a name or address to search...",
     "address": "Address",
     "errors": {
