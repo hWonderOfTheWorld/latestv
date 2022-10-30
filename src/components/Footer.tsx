@@ -11,8 +11,8 @@ import SocialGithub from '../assets/social/SocialGithub.svg'
 import SocialMedium from '../assets/social/SocialMedium.svg'
 */
 import SocialTwitter from '../assets/social/SocialTwitter.svg'
-//import SocialYoutube from '../assets/social/SocialYoutube.svg'
-//import { StyledNavLink } from './@atoms/StyledNavLink'
+// import SocialYoutube from '../assets/social/SocialYoutube.svg'
+// import { StyledNavLink } from './@atoms/StyledNavLink'
 import { LanugageDropdown } from './LanguageDropdown'
 import { SocialIcon } from './SocialIcon'
 
