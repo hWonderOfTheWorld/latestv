@@ -317,7 +317,7 @@ export const SearchResult = ({
 
   const input = useMemo(() => {
     if (type === 'nameWithDotEth') {
-      return `${value!}.eth`
+      return `${value!}.ip`
     }
     return value
   }, [type, value])

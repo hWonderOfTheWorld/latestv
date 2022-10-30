@@ -279,7 +279,7 @@ export const SearchInput = ({
         (item) =>
           item.value !== normalisedName &&
           item.value.includes(normalisedName) &&
-          (searchItem.type === 'nameWithDotEth' ? item.value !== `${normalisedName}.eth` : true),
+          (searchItem.type === 'nameWithDotEth' ? item.value !== `${normalisedName}.ip` : true),
       )
     }
     return []
@@ -316,7 +316,7 @@ export const SearchInput = ({
     if (selectedItem.type === 'nameWithDotEth') {
       selectedItem = {
         type: 'name',
-        value: `${normalisedName}.eth`,
+        value: `${normalisedName}.ip`,
       }
     }
     if (!selectedItem.value) {

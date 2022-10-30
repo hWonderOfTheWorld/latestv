@@ -86,7 +86,7 @@ const ProfileContent = ({ nameDetails, isSelf, isLoading, name }: Props) => {
   const canBeWrapped =
     nameWrapperExists &&
     !isWrapped &&
-    normalisedName.endsWith('.eth') &&
+    normalisedName.endsWith('.ip') &&
     (ownerData?.ownershipLevel === 'registrar'
       ? ownerData?.registrant === address
       : ownerData?.owner === address)
