@@ -41,6 +41,7 @@ const TrailingStack = styled.div(
   `,
 )
 
+/*
 const LinkContainer = styled.div(
   ({ theme }) => css`
     display: flex;
@@ -50,6 +51,7 @@ const LinkContainer = styled.div(
     gap: ${theme.space['4']};
   `,
 )
+*/
 
 const SocialIconContainer = styled.div(
   ({ theme }) => css`
@@ -61,7 +63,7 @@ const SocialIconContainer = styled.div(
 )
 
 export const Footer = () => {
-  const { t } = useTranslation('common')
+//  const { t } = useTranslation('common')
 
   return (
     <Container>
