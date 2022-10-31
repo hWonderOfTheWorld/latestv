@@ -25,7 +25,7 @@ import '../styles.css'
 
 const rainbowKitTheme: Theme = {
   ...lightTheme({
-    accentColor: thorinLightTheme.colors.accent,
+    accentColor: '#fa4b7f', //thorinLightTheme.colors.accent,
     borderRadius: 'medium',
   }),
   fonts: {
