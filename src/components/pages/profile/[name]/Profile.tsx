@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { Button } from '@ensdomains/thorin'
+import { Button } from '@epdomains/themey'
 
 import { CacheableComponent } from '@app/components/@atoms/CacheableComponent'
 import { ProfileSnippet } from '@app/components/ProfileSnippet'

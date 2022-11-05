@@ -6,7 +6,7 @@ import styled, { css } from 'styled-components'
 import { useAccount, useQuery } from 'wagmi'
 
 import { DNSProver } from '@ensdomains/dnsprovejs'
-import { Helper, Typography } from '@ensdomains/thorin'
+import { Helper, Typography } from '@epdomains/themey'
 
 import { Spacer } from '@app/components/@atoms/Spacer'
 import { NameAvatar } from '@app/components/AvatarWithZorb'

@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Button, Dialog, mq } from '@ensdomains/thorin'
+import { Button, Dialog, mq } from '@epdomains/themey'
 
 import EditResolverForm from '@app/components/@molecules/EditResolver/EditResolverForm'
 import EditResolverWarnings from '@app/components/@molecules/EditResolver/EditResolverWarnings'

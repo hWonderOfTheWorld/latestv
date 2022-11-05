@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Dropdown, mq } from '@ensdomains/thorin'
+import { Dropdown, mq } from '@epdomains/themey'
 
 import { useBreakpoint } from '@app/utils/BreakpointProvider'
 

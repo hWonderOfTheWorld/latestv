@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Heading } from '@ensdomains/thorin'
+import { Heading } from '@epdomains/themey'
 
 import { TaggedNameItem } from '@app/components/@atoms/NameDetailItem/TaggedNameItem'
 import { TabWrapper } from '@app/components/pages/profile/TabWrapper'

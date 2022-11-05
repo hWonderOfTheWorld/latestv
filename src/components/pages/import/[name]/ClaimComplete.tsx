@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import useWindowSize from 'react-use/lib/useWindowSize'
 import styled, { css } from 'styled-components'
 
-import { Typography, mq } from '@ensdomains/thorin'
+import { Typography, mq } from '@epdomains/themey'
 
 import { Spacer } from '@app/components/@atoms/Spacer'
 import NFTTemplate from '@app/components/@molecules/NFTTemplate'
@@ -31,7 +31,7 @@ const Container = styled.div`
 
 const FunkyTypography = styled(Typography)`
   /* stylelint-disable */
-  background: linear-gradient(330.4deg, #44bcf0 4.54%, #7298f8 59.2%, #a099ff 148.85%);
+  background: linear-gradient(330.4deg, #FA4B7F 4.54%, #7298f8 59.2%, #F3935D 148.85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `

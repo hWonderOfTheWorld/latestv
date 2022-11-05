@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 
-import { Dropdown, Helper, Typography } from '@ensdomains/thorin'
+import { Dropdown, Helper, Typography } from '@epdomains/themey'
 
 import { Spacer } from '@app/components/@atoms/Spacer'
 import { Outlink } from '@app/components/Outlink'

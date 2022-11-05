@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { Typography } from '@ensdomains/thorin'
+import { Typography } from '@epdomains/themey'
 
 import { IconCopyAnimated } from '@app/components/IconCopyAnimated'
 import { useCopied } from '@app/hooks/useCopied'

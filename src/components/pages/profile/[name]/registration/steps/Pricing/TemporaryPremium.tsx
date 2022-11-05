@@ -11,7 +11,7 @@ import {
 import { useTranslation } from 'react-i18next'
 import styled, { DefaultTheme, css } from 'styled-components'
 
-import { Button, Dropdown, Helper, Input, Typography, mq } from '@ensdomains/thorin'
+import { Button, Dropdown, Helper, Input, Typography, mq } from '@epdomains/themey'
 
 import CalendarSVG from '@app/assets/Calendar.svg'
 import MobileFullWidth from '@app/components/@atoms/MobileFullWidth'

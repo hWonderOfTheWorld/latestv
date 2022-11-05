@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { mq } from '@ensdomains/thorin'
+import { mq } from '@epdomains/themey'
 
 export const InnerDialog = styled.div(
   ({ theme }) => css`

@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { mq } from '@ensdomains/thorin'
+import { mq } from '@epdomains/themey'
 
 import { AvatarNFT } from './AvatarNFT'
 import { AvatarUpload } from './AvatarUpload'

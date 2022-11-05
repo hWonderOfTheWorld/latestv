@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Button, DownIndicatorSVG, Typography } from '@ensdomains/thorin'
+import { Button, DownIndicatorSVG, Typography } from '@epdomains/themey'
 
 import { useTransactionFlow } from '@app/transaction-flow/TransactionFlowProvider'
 

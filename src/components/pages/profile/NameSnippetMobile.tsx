@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Button, Dropdown, Typography } from '@ensdomains/thorin'
+import { Button, Dropdown, Typography } from '@epdomains/themey'
 
 import FastForwardSVG from '@app/assets/FastForward.svg'
 import PaperPlaneSVG from '@app/assets/PaperPlane.svg'

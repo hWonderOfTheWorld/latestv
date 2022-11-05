@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
 import { RecordOptions } from '@ensdomains/ensjs/utils/recordHelpers'
-import { Button, Dialog, DownIndicatorSVG, Helper, Tag, Typography, mq } from '@ensdomains/thorin'
+import { Button, Dialog, DownIndicatorSVG, Helper, Tag, Typography, mq } from '@epdomains/themey'
 
 import { Banner } from '@app/components/@atoms/Banner/Banner'
 import MobileFullWidth from '@app/components/@atoms/MobileFullWidth'

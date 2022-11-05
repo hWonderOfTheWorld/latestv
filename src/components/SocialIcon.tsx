@@ -1,7 +1,7 @@
 import { ElementType } from 'react'
 import styled, { css } from 'styled-components'
 
-import { Space } from '@ensdomains/thorin'
+import { Space } from '@epdomains/themey'
 
 import { useBreakpoint } from '@app/utils/BreakpointProvider'
 

@@ -3,7 +3,7 @@
 import type { JsonRpcProvider } from '@ethersproject/providers'
 import { usePrepareSendTransaction, useProvider, useSendTransaction } from 'wagmi'
 
-import { Button } from '@ensdomains/thorin'
+import { Button } from '@epdomains/themey'
 
 import { useAddRecentTransaction } from '@app/hooks/transactions/useAddRecentTransaction'
 import { useTransactionFlow } from '@app/transaction-flow/TransactionFlowProvider'

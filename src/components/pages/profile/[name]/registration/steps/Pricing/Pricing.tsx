@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount, useBalance } from 'wagmi'
 
-import { Button, Checkbox, Heading, Typography, mq } from '@ensdomains/thorin'
+import { Button, Checkbox, Heading, Typography, mq } from '@epdomains/themey'
 
 import MobileFullWidth from '@app/components/@atoms/MobileFullWidth'
 import { PlusMinusControl } from '@app/components/@atoms/PlusMinusControl/PlusMinusControl'

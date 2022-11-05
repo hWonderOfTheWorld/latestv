@@ -1,5 +1,5 @@
 import { Outlink } from '@app/components/Outlink'
-import { Typography } from '@ensdomains/thorin'
+import { Typography } from '@epdomains/themey'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 

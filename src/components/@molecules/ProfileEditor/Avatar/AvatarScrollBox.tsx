@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { ScrollBox } from '@ensdomains/thorin'
+import { ScrollBox } from '@epdomains/themey'
 
 const AvatarScrollBox = styled(ScrollBox)(
   ({ theme }) => css`

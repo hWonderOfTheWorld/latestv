@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { useTranslation } from 'react-i18next'
 import { useAccount, useQuery } from 'wagmi'
 
-import type { Colors } from '@ensdomains/thorin'
+import type { Colors } from '@epdomains/themey'
 
 import { useNameDetails } from '@app/hooks/useNameDetails'
 import { usePrimary } from '@app/hooks/usePrimary'

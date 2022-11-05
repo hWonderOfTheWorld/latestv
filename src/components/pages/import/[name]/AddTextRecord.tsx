@@ -6,7 +6,7 @@ import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
 import { DNSProver } from '@ensdomains/dnsprovejs'
-import { Button, Dropdown, Helper, Typography } from '@ensdomains/thorin'
+import { Button, Dropdown, Helper, Typography } from '@epdomains/themey'
 
 import { Spacer } from '@app/components/@atoms/Spacer'
 import { IconCopyAnimated } from '@app/components/IconCopyAnimated'

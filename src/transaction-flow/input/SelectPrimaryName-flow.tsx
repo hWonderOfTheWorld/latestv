@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 import { useInfiniteQuery } from 'wagmi'
 
 import { truncateFormat } from '@ensdomains/ensjs/utils/format'
-import { Button, Dialog, Heading, RadioButton, RadioButtonGroup } from '@ensdomains/thorin'
+import { Button, Dialog, Heading, RadioButton, RadioButtonGroup } from '@epdomains/themey'
 
 import { InnerDialog } from '@app/components/@atoms/InnerDialog'
 import { NamePill } from '@app/components/@molecules/NamePill'

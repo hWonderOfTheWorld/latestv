@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount, useDisconnect } from 'wagmi'
 
-import { Button, Profile, mq } from '@ensdomains/thorin'
+import { Button, Profile, mq } from '@epdomains/themey'
 
 import { useAvatar } from '@app/hooks/useAvatar'
 import { useChainId } from '@app/hooks/useChainId'

@@ -3,7 +3,7 @@ import { fireEvent, mockFunction, render, screen, waitFor } from '@app/test-util
 
 import { useAccount } from 'wagmi'
 
-import * as ThorinComponents from '@ensdomains/thorin'
+import * as ThorinComponents from '@epdomains/themey'
 
 import { AvatarNFT } from './AvatarNFT'
 

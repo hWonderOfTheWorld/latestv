@@ -3,7 +3,7 @@ import EditResolverWarnings from '@app/components/@molecules/EditResolver/EditRe
 import { useProfile } from '@app/hooks/useProfile'
 import useResolverEditor from '@app/hooks/useResolverEditor'
 import { TransactionDialogPassthrough } from '@app/transaction-flow/types'
-import { Button, Dialog, mq } from '@ensdomains/thorin'
+import { Button, Dialog, mq } from '@epdomains/themey'
 import { useCallback, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'

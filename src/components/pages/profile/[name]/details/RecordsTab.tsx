@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Typography, mq } from '@ensdomains/thorin'
+import { Typography, mq } from '@epdomains/themey'
 
 import { cacheableComponentStyles } from '@app/components/@atoms/CacheableComponent'
 import { IconCopyAnimated } from '@app/components/IconCopyAnimated'

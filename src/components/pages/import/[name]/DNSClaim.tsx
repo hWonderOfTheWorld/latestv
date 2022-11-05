@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { Button, Card, Spinner, Typography, mq } from '@ensdomains/thorin'
+import { Button, Card, Spinner, Typography, mq } from '@epdomains/themey'
 
 import ArrowLeftSVG from '@app/assets/ArrowLeft.svg'
 import { Spacer } from '@app/components/@atoms/Spacer'

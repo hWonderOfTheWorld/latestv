@@ -10,7 +10,7 @@ import React, { FC, ReactElement } from 'react'
 import { ThemeProvider } from 'styled-components'
 import { WagmiConfig, createClient } from 'wagmi'
 
-import { ThorinGlobalStyles, lightTheme } from '@ensdomains/thorin'
+import { ThorinGlobalStyles, lightTheme } from '@epdomains/themey'
 
 jest.mock('wagmi', () => {
   const { useQuery, useInfiniteQuery, createClient, WagmiConfig } = jest.requireActual('wagmi')

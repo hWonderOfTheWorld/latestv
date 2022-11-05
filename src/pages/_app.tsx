@@ -10,7 +10,7 @@ import { WagmiConfig, chain, configureChains, createClient } from 'wagmi'
 import { infuraProvider } from 'wagmi/providers/infura'
 import { jsonRpcProvider } from 'wagmi/providers/jsonRpc'
 
-import { ThorinGlobalStyles, lightTheme as thorinLightTheme } from '@ensdomains/thorin'
+import { ThorinGlobalStyles, lightTheme as thorinLightTheme } from '@epdomains/themey'
 
 import { Notifications } from '@app/components/Notifications'
 import { TransactionStoreProvider } from '@app/hooks/transactions/TransactionStoreContext'
@@ -58,7 +58,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: radial-gradient(50% 50% at 50% 50%, rgba(82, 152, 255, 0.062) 0%, rgba(255, 255, 255, 0) 100%), #F7F7F7;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(250, 75, 127, 0.062) 0%, rgba(255, 255, 255, 0) 100%), #F7F7F7;
   }
 
   body, .min-safe {

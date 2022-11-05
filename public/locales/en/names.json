@@ -1,12 +1,12 @@
 {
-  "title": "Names",
+  "title": "IP",
   "subtitle": {
-    "start": "All the names held by",
+    "start": "All the IP held by",
     "this": "this",
     "your": "your",
     "wallet": "wallet"
   },
-  "empty": "No names found for this address",
+  "empty": "No IP found for this address",
   "sortTypes": {
     "expiryDate": "Expiry Date",
     "labelName": "Name",

@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Tag, mq } from '@ensdomains/thorin'
+import { Tag, mq } from '@epdomains/themey'
 
 import { ReturnedName } from '@app/hooks/useNamesFromAddress'
 

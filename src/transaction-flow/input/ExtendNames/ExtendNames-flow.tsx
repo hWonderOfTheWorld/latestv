@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useFeeData } from 'wagmi'
 
-import { Avatar, Button, Dialog, Helper, ScrollBox, mq } from '@ensdomains/thorin'
+import { Avatar, Button, Dialog, Helper, ScrollBox, mq } from '@epdomains/themey'
 
 import { CurrencySwitch } from '@app/components/@atoms/CurrencySwitch/CurrencySwitch'
 import { Invoice } from '@app/components/@atoms/Invoice/Invoice'

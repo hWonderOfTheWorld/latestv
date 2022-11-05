@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Typography, mq } from '@ensdomains/thorin'
+import { Typography, mq } from '@epdomains/themey'
 
 import { HamburgerRoutes } from '@app/components/@molecules/HamburgerRoutes'
 import { SearchInput } from '@app/components/@molecules/SearchInput/SearchInput'
@@ -100,7 +100,7 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>ENS</title>
+        <title>ebpto</title>
       </Head>
       <StyledLeadingHeading>
         <LogoAndLanguage>

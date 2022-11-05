@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { ScrollBox, Textarea } from '@ensdomains/thorin'
+import { ScrollBox, Textarea } from '@epdomains/themey'
 
 import { RecordInput } from '@app/components/@molecules/RecordInput/RecordInput'
 import useProfileEditor from '@app/hooks/useProfileEditor'

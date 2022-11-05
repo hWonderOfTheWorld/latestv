@@ -1,6 +1,6 @@
 import styled, { DefaultTheme, css, keyframes } from 'styled-components'
 
-import { Typography } from '@ensdomains/thorin'
+import { Typography } from '@epdomains/themey'
 
 const generateBgImg = (percent: number, theme: DefaultTheme) => css`
   background-image: linear-gradient(

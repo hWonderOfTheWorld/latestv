@@ -16,49 +16,49 @@
       "name": "Profile",
       "actions": {
         "setAsPrimaryName": {
-          "label": "Set as primary name",
-          "title": "Set your primary name",
-          "description": "To set your primary name to this name, the ETH address must match this address."
+          "label": "Set as primary IP",
+          "title": "Set your primary IP",
+          "description": "To set your primary IP to this IP, the ETH address must match this address."
         },
         "deleteSubname": {
-          "label": "Delete subname"
+          "label": "Delete sub IP"
         },
         "extend": {
-          "label": "Extend name"
+          "label": "Extend IP"
         }
       }
     }
   },
   "details": {
-    "title": "Name Details",
+    "title": "IP Details",
     "notWrapped": "Not wrapped",
     "sendName": {
-      "title": "Send Name",
-      "description": "Sending a name will give the new address control over it",
-      "learnMore": "Learn more about name ownership.",
+      "title": "Send IP",
+      "description": "Sending IP give the new address control over it",
+      "learnMore": "Learn more about IP ownership.",
       "makeOwner": "Make owner",
       "makeOwnerDescription": "The owner can send to a new owner and change the manager",
       "makeManager": "Make Manager",
       "makeManagerDescription": "The manager can change and set records.",
-      "inputPlaceholder": "Enter an Ethereum address or ENS name",
-      "transferSubname": "Transfer Name",
+      "inputPlaceholder": "Enter an Ethereum address or IP record",
+      "transferSubname": "Transfer IP",
       "transferController": "Transfer Controller"
     },
     "wrap": {
-      "startTitle": "Upgrade your name",
+      "startTitle": "Upgrade your IP",
       "resumeTitle": "Resume your upgrade",
       "completeTitle": "Upgrade complete",
-      "description": "Upgrading or \"wrapping\" your name gives it new features.",
+      "description": "Upgrading or \"wrapping\" your IP gives it new features.",
       "startLabel": "Upgrade",
       "resumeLabel": "Resume Upgrade",
       "boxTitle": "Unlock new features",
-      "boxDescription": "Upgrading your name unlocks the latest functionality of ENS"
+      "boxDescription": "Upgrading your IP unlocks the latest functionality"
     },
     "descriptions": {
-      "owner": "Owns and controls the name",
-      "controller": "Controls all the records of the name",
+      "owner": "Owns and controls the IP",
+      "controller": "Controls all the records of the IP",
       "registrant": "The owner of the NFT",
-      "dnsOwner": "Owner of the DNS name"
+      "dnsOwner": "Owner of the IP"
     },
     "tabs": {
       "records": {

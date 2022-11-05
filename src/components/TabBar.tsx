@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { mq } from '@ensdomains/thorin'
+import { mq } from '@epdomains/themey'
 
 import { useRecentTransactions } from '@app/hooks/transactions/useRecentTransactions'
 import { useActiveRoute } from '@app/hooks/useActiveRoute'

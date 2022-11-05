@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { Button, Typography, mq } from '@ensdomains/thorin'
+import { Button, Typography, mq } from '@epdomains/themey'
 
 import { NightSky } from '@app/assets/NightSky'
 import SparklesSVG from '@app/assets/Sparkles.svg'

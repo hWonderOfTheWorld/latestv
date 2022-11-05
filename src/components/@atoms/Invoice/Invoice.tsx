@@ -1,7 +1,7 @@
 import { BigNumber } from 'ethers'
 import styled, { css } from 'styled-components'
 
-import { Colors } from '@ensdomains/thorin'
+import { Colors } from '@epdomains/themey'
 
 import { CurrencyDisplay } from '@app/types'
 

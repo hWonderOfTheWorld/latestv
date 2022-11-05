@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount, useWaitForTransaction } from 'wagmi'
 
-import { Button, Typography, mq } from '@ensdomains/thorin'
+import { Button, Typography, mq } from '@epdomains/themey'
 
 import { Invoice } from '@app/components/@atoms/Invoice/Invoice'
 import MobileFullWidth from '@app/components/@atoms/MobileFullWidth'
@@ -154,7 +154,7 @@ const Complete = ({ nameDetails: { normalisedName: name }, callback }: Props) =>
         recycle={false}
         colors={[
           '#49B393',
-          '#5298FF',
+          '#FA4B7F',
           '#5854D6',
           '#5AC8FA',
           '#AF52DE',

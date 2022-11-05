@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { Button, Typography } from '@ensdomains/thorin'
+import { Button, Typography } from '@epdomains/themey'
 
 import { TaggedNameItem } from '@app/components/@atoms/NameDetailItem/TaggedNameItem'
 import { useBasicName } from '@app/hooks/useBasicName'

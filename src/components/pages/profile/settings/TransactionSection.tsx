@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Button, Spinner, Typography } from '@ensdomains/thorin'
+import { Button, Spinner, Typography } from '@epdomains/themey'
 
 import { useClearRecentTransactions } from '@app/hooks/transactions/useClearRecentTransactions'
 import { useRecentTransactions } from '@app/hooks/transactions/useRecentTransactions'

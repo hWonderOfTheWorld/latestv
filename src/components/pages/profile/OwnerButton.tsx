@@ -2,7 +2,7 @@ import { ReactNode, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Button, Dialog, DownIndicatorSVG, Dropdown, Typography } from '@ensdomains/thorin'
+import { Button, Dialog, DownIndicatorSVG, Dropdown, Typography } from '@epdomains/themey'
 
 import { AvatarWithZorb } from '@app/components/AvatarWithZorb'
 import { IconCopyAnimated } from '@app/components/IconCopyAnimated'

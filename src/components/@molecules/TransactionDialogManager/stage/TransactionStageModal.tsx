@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css, keyframes } from 'styled-components'
 import { useProvider, useQuery, useSendTransaction, useSigner } from 'wagmi'
 
-import { Button, Dialog, Helper, Spinner, Typography } from '@ensdomains/thorin'
+import { Button, Dialog, Helper, Spinner, Typography } from '@epdomains/themey'
 
 import AeroplaneSVG from '@app/assets/Aeroplane.svg'
 import CircleCrossSVG from '@app/assets/CircleCross.svg'

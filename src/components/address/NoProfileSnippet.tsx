@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Avatar, Typography } from '@ensdomains/thorin'
+import { Avatar, Typography } from '@epdomains/themey'
 
 const Container = styled.div(
   ({ theme }) => css`

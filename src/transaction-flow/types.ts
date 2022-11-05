@@ -1,6 +1,6 @@
 import { ComponentProps, Dispatch, ReactNode } from 'react'
 
-import { Button, Dialog, Helper } from '@ensdomains/thorin'
+import { Button, Dialog, Helper } from '@epdomains/themey'
 
 import { TransactionDisplayItem } from '@app/types'
 

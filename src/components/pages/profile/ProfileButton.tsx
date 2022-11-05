@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import styled, { css, useTheme } from 'styled-components'
 
-import { ArrowUpSVG, Button, Space, Typography, mq } from '@ensdomains/thorin'
+import { ArrowUpSVG, Button, Space, Typography, mq } from '@epdomains/themey'
 
 import { DynamicAddressIcon, addressIconTypes } from '@app/assets/address/DynamicAddressIcon'
 import { DynamicSocialIcon, socialIconTypes } from '@app/assets/social/DynamicSocialIcon'

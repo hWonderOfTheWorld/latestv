@@ -7,7 +7,7 @@ import { Dispatch, ForwardedRef, MouseEvent, SetStateAction, forwardRef } from '
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { CancelCircleSVG, Input } from '@ensdomains/thorin'
+import { CancelCircleSVG, Input } from '@epdomains/themey'
 
 const SearchInputWrapper = styled.div<{ $size: 'large' | 'extraLarge' }>(
   ({ theme, $size }) => css`

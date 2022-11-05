@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Button, Toast } from '@ensdomains/thorin'
+import { Button, Toast } from '@epdomains/themey'
 
 import useCallbackOnTransaction, {
   UpdateCallback,

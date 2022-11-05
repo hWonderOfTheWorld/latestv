@@ -128,8 +128,8 @@
       "customPlaceholder": "Enter custom resolver address"
     },
     "extendNames": {
-      "title_one": "Extend Name",
-      "title_other": "Extend {{count}} Names",
+      "title_one": "Extend IP",
+      "title_other": "Extend {{count}} IP Records",
       "invoice": {
         "extension": "{{count}} year extension",
         "transaction": "Transaction fee",

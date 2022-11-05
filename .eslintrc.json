@@ -3,11 +3,9 @@
   "extends": [
     "next/core-web-vitals",
     "airbnb",
-    "airbnb-typescript",
-    "prettier",
-    "plugin:prettier/recommended"
+    "airbnb-typescript"
   ],
-  "plugins": ["testing-library", "@typescript-eslint", "prettier", "jest"],
+  "plugins": ["testing-library", "@typescript-eslint", "jest"],
   "parser": "@typescript-eslint/parser",
   "overrides": [
     {
@@ -15,11 +13,6 @@
       "env": { "jest/globals": true },
       "globals": {
         "context": "readonly"
-      },
-      "plugins": ["jest"],
-      "extends": ["plugin:jest/recommended"],
-      "rules": {
-        "jest/expect-expect": "off"
       }
     },
     // Only uses Testing Library lint rules in test files
@@ -37,6 +30,7 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
+    "semi": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
     "import/extensions": [
       "error",

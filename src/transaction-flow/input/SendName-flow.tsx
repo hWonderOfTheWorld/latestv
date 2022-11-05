@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount, useQuery } from 'wagmi'
 
-import { Button, Checkbox, Dialog, Helper, Input, Typography, mq } from '@ensdomains/thorin'
+import { Button, Checkbox, Dialog, Helper, Input, Typography, mq } from '@epdomains/themey'
 
 import { Spacer } from '@app/components/@atoms/Spacer'
 import { NameAvatar } from '@app/components/AvatarWithZorb'

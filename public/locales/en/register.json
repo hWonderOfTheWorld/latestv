@@ -15,11 +15,11 @@
     "pricing": {
       "insufficientBalance": "Insufficient Balance",
       "multipleYearsMessage": "Extending for multiple years will save money on network costs by avoiding yearly transactions.",
-      "primaryName": "Use as primary name",
-      "primaryNameMessage": "This links your address to this name, allowing apps to display this name as your profile when connected to them.",
+      "primaryName": "Use as primary IP",
+      "primaryNameMessage": "This links your address to this IP, allowing apps to display this IP as your profile when connected to them.",
       "premium": {
-        "heading": "This name has a temporary premium",
-        "subheading": "To give fair opportunity to recently expired names, the premium starts at $100,000,000 and reduces to $0 over 21 days. You can calculate the premium on a date below.",
+        "heading": "This IP has a temporary premium",
+        "subheading": "To give fair opportunity to recently expired IP, the premium starts at $100,000,000 and reduces to $0 over 21 days. You can calculate the premium on a date below.",
         "targetPrice": "Target price",
         "targetDate": "Target date",
         "timezone": "Date and time shown in local time zone ({{timezone}})"
@@ -30,28 +30,28 @@
       "advanced": "Advanced",
       "permissions": "Permissions",
       "resolver": "Resolver",
-      "visibilityMessage": "Your profile information will be stored on the blockchain. Anything you add will be publicly visible."
+      "visibilityMessage": "Your IP will be stored on the blockchain. Anything you add will be publicly visible."
     },
     "complete": {
       "heading": "Congratulations!",
       "subheading": "You are now the owner of ",
-      "description": "Your name was successfully registered. You can now view and manage your name.",
+      "description": "Your IP was successfully registered. You can now view and manage your naIPme.",
       "registerAnother": "Register another",
-      "viewName": "View name"
+      "viewName": "View IP"
     },
     "info": {
       "heading": "Before we start",
-      "subheading": "Registering your name takes three steps",
+      "subheading": "Registering your IP takes three steps",
       "items": [
         "Complete a transaction to begin the timer",
         "Wait 60 seconds for the timer to complete",
-        "Complete a second transaction to secure your name"
+        "Complete a second transaction to secure your IP"
       ],
       "setupProfile": "I'd like to set up my profile first"
     },
     "transactions": {
       "heading": "Almost there",
-      "subheading": "This timer prevents others from registering this name before you do.",
+      "subheading": "This timer prevents others from registering this IP before you do.",
       "startTimer": "Start timer",
       "wait": "Wait",
       "transactionFailed": "Transaction Failed",

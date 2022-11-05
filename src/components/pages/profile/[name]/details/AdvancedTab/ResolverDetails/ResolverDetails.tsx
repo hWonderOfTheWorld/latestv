@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Typography, mq } from '@ensdomains/thorin'
+import { Typography, mq } from '@epdomains/themey'
 
 import { CacheableComponent } from '@app/components/@atoms/CacheableComponent'
 import { RecordItem } from '@app/components/RecordItem'

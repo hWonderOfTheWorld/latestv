@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount, useInfiniteQuery } from 'wagmi'
 
-import { Button, Dialog, Heading, Input, Typography } from '@ensdomains/thorin'
+import { Button, Dialog, Heading, Input, Typography } from '@epdomains/themey'
 
 import MagnifyingGlassSVG from '@app/assets/MagnifyingGlass.svg'
 import { ScrollBoxWithSpinner, SpinnerRow } from '@app/components/@molecules/ScrollBoxWithSpinner'

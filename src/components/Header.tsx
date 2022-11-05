@@ -5,7 +5,7 @@ import useTransition, { TransitionState } from 'react-transition-state'
 import styled, { css, useTheme } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { mq } from '@ensdomains/thorin'
+import { mq } from '@epdomains/themey'
 
 import { useRecentTransactions } from '@app/hooks/transactions/useRecentTransactions'
 import { useInitial } from '@app/hooks/useInitial'
@@ -185,7 +185,7 @@ export const Header = () => {
           )}
         >
           {router.asPath === '/' ? (
-            <ENSFull height={space['12']} />
+            <ENSFull  />
           ) : (
             <ENSWithGradient height={space['12']} />
           )}

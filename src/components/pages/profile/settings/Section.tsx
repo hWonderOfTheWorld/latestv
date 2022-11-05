@@ -1,7 +1,7 @@
 import { ComponentProps, ReactNode } from 'react'
 import styled, { css } from 'styled-components'
 
-import { Heading } from '@ensdomains/thorin'
+import { Heading } from '@epdomains/themey'
 
 import { Card } from '@app/components/Card'
 import { useInitial } from '@app/hooks/useInitial'
@@ -30,7 +30,7 @@ const SectionHeader = styled.div(
     align-items: center;
     justify-content: space-between;
 
-    padding: ${theme.space['4']};
+    padding: ${theme.space['5']};
     width: ${theme.space.full};
 
     background-color: ${theme.colors.background};

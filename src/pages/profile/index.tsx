@@ -37,10 +37,12 @@ export default function Page() {
     return null
   }
 
-  const isDNS = isDNSName(name)
+  const isDNS = false // isDNSName(name)
+
+  console.log('isDNS', isDNS, name)
   if (isDNS && status === 'notImported') {
-    router.push(`/import/${name}`)
-    return null
+    // router.push(`/import/${name}`)
+    // return null
   }
 
   return (

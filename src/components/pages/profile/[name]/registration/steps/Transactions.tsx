@@ -13,7 +13,7 @@ import {
   Spinner,
   Typography,
   mq,
-} from '@ensdomains/thorin'
+} from '@epdomains/themey'
 
 import { InnerDialog } from '@app/components/@atoms/InnerDialog'
 import MobileFullWidth from '@app/components/@atoms/MobileFullWidth'

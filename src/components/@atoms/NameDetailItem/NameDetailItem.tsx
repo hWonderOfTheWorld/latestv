@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { ReactNode } from 'react'
 import styled, { css } from 'styled-components'
 
-import { Avatar, mq } from '@ensdomains/thorin'
+import { Avatar, mq } from '@epdomains/themey'
 
 import CircleTick from '@app/assets/CircleTick.svg'
 import { useAvatar } from '@app/hooks/useAvatar'
@@ -97,7 +97,7 @@ const AvatarOverlay = styled.div(
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(82, 152, 255, 0.75);
+    background: rgba(250, 75, 127, 0.75);
     border-radius: ${theme.radii.full};
     svg {
       path {

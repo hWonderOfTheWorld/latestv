@@ -3,7 +3,7 @@ import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Button, Colors, Dropdown, Typography } from '@ensdomains/thorin'
+import { Button, Colors, Dropdown, Typography } from '@epdomains/themey'
 
 import FastForwardSVG from '@app/assets/FastForward.svg'
 import TripleDot from '@app/assets/TripleDot.svg'

@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Button, Typography } from '@ensdomains/thorin'
+import { Button, Typography } from '@epdomains/themey'
 
 import DismissDialogButton from '@app/components/@atoms/DismissDialogButton/DismissDialogButton'
 import { makeTransactionItem } from '@app/transaction-flow/transaction'

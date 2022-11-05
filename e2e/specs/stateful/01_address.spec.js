@@ -15,7 +15,7 @@ describe('Address', () => {
   })
 
   it('should go to the address page', () => {
-    cy.get('[placeholder="Search for a name"]')
+    cy.get('[placeholder="Search for some IP..."]')
       .type('0x866b3c4994e1416b7c738b9818b31dc246b95eee')
       .wait(1000)
       .type('{enter}')
@@ -26,7 +26,7 @@ describe('Address', () => {
   })
 
   it('should not show the profile if there is no primary name for the address', () => {
-    cy.get('[placeholder="Search for a name"]')
+    cy.get('[placeholder="Search for some IP..."]')
       .type('0x2330eb2d92167c3b6b22690c03b508e0ca532980')
       .wait(1000)
       .type('{enter}')

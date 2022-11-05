@@ -1,7 +1,7 @@
 import { ComponentProps } from 'react'
 import styled, { css } from 'styled-components'
 
-import { Avatar, Space } from '@ensdomains/thorin'
+import { Avatar, Space } from '@epdomains/themey'
 
 import { useAvatar } from '@app/hooks/useAvatar'
 import { useZorb } from '@app/hooks/useZorb'

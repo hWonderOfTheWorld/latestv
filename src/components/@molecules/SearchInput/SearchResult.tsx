@@ -7,7 +7,7 @@ import { useCallback, useEffect, useMemo, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Avatar, Spinner, Tag, Typography } from '@ensdomains/thorin'
+import { Avatar, Spinner, Tag, Typography } from '@epdomains/themey'
 
 import { useAvatar } from '@app/hooks/useAvatar'
 import { useBasicName } from '@app/hooks/useBasicName'

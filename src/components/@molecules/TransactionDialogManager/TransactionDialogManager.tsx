@@ -4,7 +4,7 @@
 import { Dispatch, useCallback, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { Dialog } from '@ensdomains/thorin'
+import { Dialog } from '@epdomains/themey'
 
 import { transactions } from '@app/transaction-flow/transaction'
 

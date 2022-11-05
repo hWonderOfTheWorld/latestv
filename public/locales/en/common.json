@@ -1,6 +1,6 @@
 {
-  "title": "Your web3 username",
-  "description": "Your identity across web3, one name for all your crypto addresses, and your decentralised website.",
+  "title": "Your REAL IP (RIP) registration:",
+  "description": "Own a REAL IP registration across web3 and the Ethereum blockchain, an IP registration to capture every single idea you can think of.",
   "loading": "Loading",
   "unsupportedNetwork": "Unsupported network",
   "action": {
@@ -68,7 +68,7 @@
     "myProfile": "Profile",
     "disconnect": "Disconnect",
     "connect": "Connect Wallet",
-    "noPrimaryName": "No Primary Name",
+    "noPrimaryName": "No Primary IP",
     "viewProfile": "View Profile",
     "viewDetails": "View Details"
   },
@@ -126,7 +126,7 @@
       "burnFuses": "Burn permissions",
       "createSubname": "Create Subname",
       "deleteSubname": "Delete Subname",
-      "extendNames": "Extend Names",
+      "extendNames": "Extend IP",
       "importDNSSECName": "import DNSSEC Name",
       "commitName": "Start countdown",
       "registerName": "Register Name",
@@ -217,7 +217,7 @@
   },
   "search": {
     "label": "Name search",
-    "placeholder": "Search for sum ip",
+    "placeholder": "Discover IP...",
     "emptyText": "Type a name or address to search...",
     "address": "Address",
     "errors": {

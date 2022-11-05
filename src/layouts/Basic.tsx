@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import styled, { css } from 'styled-components'
 import { useNetwork, useSwitchNetwork } from 'wagmi'
 
-import { mq } from '@ensdomains/thorin'
+import { mq } from '@epdomains/themey'
 
 import { Footer } from '@app/components/Footer'
 

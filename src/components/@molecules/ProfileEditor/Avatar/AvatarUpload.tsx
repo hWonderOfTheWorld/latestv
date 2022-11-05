@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useSignTypedData } from 'wagmi'
 
-import { Button, Dialog } from '@ensdomains/thorin'
+import { Button, Dialog } from '@epdomains/themey'
 
 import { useChainName } from '@app/hooks/useChainName'
 

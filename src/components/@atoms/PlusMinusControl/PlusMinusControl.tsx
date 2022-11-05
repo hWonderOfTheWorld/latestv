@@ -2,7 +2,7 @@ import { ChangeEventHandler, ForwardedRef, InputHTMLAttributes, forwardRef, useS
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { VisuallyHidden } from '@ensdomains/thorin'
+import { VisuallyHidden } from '@epdomains/themey'
 
 import MinusIcon from '@app/assets/Minus.svg'
 import PlusIcon from '@app/assets/Plus.svg'

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { Button, Spinner } from '@ensdomains/thorin'
+import { Button, Spinner } from '@epdomains/themey'
 
 import FastForwardSVG from '@app/assets/FastForward.svg'
 import { TaggedNameItem } from '@app/components/@atoms/NameDetailItem/TaggedNameItem'

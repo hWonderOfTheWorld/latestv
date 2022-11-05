@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { mq } from '@ensdomains/thorin'
+import { mq } from '@epdomains/themey'
 
 const MobileFullWidth = styled.div(
   ({ theme }) => css`

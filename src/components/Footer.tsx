@@ -1,7 +1,7 @@
 // import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { mq } from '@ensdomains/thorin'
+import { mq } from '@epdomains/themey'
 
 /*
 import SocialDiscord from '../assets/social/SocialDiscord.svg'
@@ -68,7 +68,7 @@ export const Footer = () => {
       <LanugageDropdown invert />
       <TrailingStack>
         <SocialIconContainer>
-          <SocialIcon Icon={SocialTwitter} color="#5298FF" href="https://twitter.com/bootypoppin" />
+          <SocialIcon Icon={SocialTwitter} color="#FA4B7F" href="https://twitter.com/bootypoppin" />
         </SocialIconContainer>
       </TrailingStack>
     </Container>

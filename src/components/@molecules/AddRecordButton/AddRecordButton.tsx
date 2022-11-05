@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import useTransition, { TransitionState } from 'react-transition-state'
 import styled, { css, useTheme } from 'styled-components'
 
-import { Button, CloseSVG, Input, PlusSVG, SearchSVG } from '@ensdomains/thorin'
+import { Button, CloseSVG, Input, PlusSVG, SearchSVG } from '@epdomains/themey'
 
 import UnsupportedSVG from '@app/assets/Unsupported.svg'
 

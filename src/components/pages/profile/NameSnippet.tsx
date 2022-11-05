@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useQuery } from 'wagmi'
 
-import { Button, Typography } from '@ensdomains/thorin'
+import { Button, Typography } from '@epdomains/themey'
 
 import { CacheableComponent } from '@app/components/@atoms/CacheableComponent'
 import { AddressAvatar, AvatarWithZorb } from '@app/components/AvatarWithZorb'

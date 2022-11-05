@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import { ReactNode } from 'react'
 import styled, { css } from 'styled-components'
 
-import { Button, Skeleton, Typography, mq } from '@ensdomains/thorin'
+import { Button, Skeleton, Typography, mq } from '@epdomains/themey'
 
 import ArrowLeftSVG from '@app/assets/ArrowLeft.svg'
 import { ErrorContainer } from '@app/components/@molecules/ErrorContainer'

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 import { useAccount } from 'wagmi'
 
-import { Button, PlusSVG, Spinner, Typography, mq } from '@ensdomains/thorin'
+import { Button, PlusSVG, Spinner, Typography, mq } from '@epdomains/themey'
 
 import {
   NameTableHeader,

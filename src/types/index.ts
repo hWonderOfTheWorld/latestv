@@ -4,7 +4,7 @@ import { ComponentProps } from 'react'
 import type { TFunction } from 'react-i18next'
 
 import type { ENS } from '@ensdomains/ensjs'
-import { Helper } from '@ensdomains/thorin'
+import { Helper } from '@epdomains/themey'
 
 export type Profile = NonNullable<Awaited<ReturnType<ENS['getProfile']>>>
 

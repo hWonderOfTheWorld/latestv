@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { Button } from '@ensdomains/thorin'
+import { Button } from '@epdomains/themey'
 
 import { useCopied } from '@app/hooks/useCopied'
 

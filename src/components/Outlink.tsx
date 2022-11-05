@@ -3,7 +3,7 @@ import { ComponentProps } from 'react'
 import styled, { css } from 'styled-components'
 import type { UrlObject } from 'url'
 
-import { Typography } from '@ensdomains/thorin'
+import { Typography } from '@epdomains/themey'
 
 import OutlinkSVG from '@app/assets/Outlink.svg'
 

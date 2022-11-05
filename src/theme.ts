@@ -1,6 +1,6 @@
 import 'styled-components'
 
-import { DefaultTheme as ThorinDefaultTheme } from '@ensdomains/thorin'
+import { DefaultTheme as ThorinDefaultTheme } from '@epdomains/themey'
 
 declare module 'styled-components' {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface

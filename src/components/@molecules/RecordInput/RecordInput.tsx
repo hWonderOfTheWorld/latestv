@@ -1,7 +1,7 @@
 import { ComponentProps, ReactNode, Ref, forwardRef } from 'react'
 import styled, { css, useTheme } from 'styled-components'
 
-import { Button, CloseSVG, Input } from '@ensdomains/thorin'
+import { Button, CloseSVG, Input } from '@epdomains/themey'
 
 import UnsupportedSVG from '@app/assets/Unsupported.svg'
 

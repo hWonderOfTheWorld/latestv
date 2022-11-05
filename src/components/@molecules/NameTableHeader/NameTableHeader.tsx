@@ -2,7 +2,7 @@ import { PropsWithChildren } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Input, SearchSVG, Select, mq } from '@ensdomains/thorin'
+import { Input, SearchSVG, Select, mq } from '@epdomains/themey'
 
 import DownDirectionSVG from '@app/assets/SortAscending.svg'
 import UpDirectionSVG from '@app/assets/SortDescending.svg'

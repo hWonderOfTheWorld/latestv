@@ -90,7 +90,7 @@ describe('Profile', () => {
     describe(profile.name, () => {
       describe('profile', () => {
         it('should go to the profile page', () => {
-          cy.get('[placeholder="Search for a name"]').type(profile.name).wait(1000).type('{enter}')
+          cy.get('[placeholder="Search for some IP..."]').type(profile.name).wait(1000).type('{enter}')
         })
 
         it('should show the name in the profile snippet', () => {

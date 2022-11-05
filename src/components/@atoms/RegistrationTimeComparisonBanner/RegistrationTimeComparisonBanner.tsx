@@ -2,7 +2,7 @@ import { BigNumber } from 'ethers'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Helper, mq } from '@ensdomains/thorin'
+import { Helper, mq } from '@epdomains/themey'
 
 const InnerContainer = styled.div(
   ({ theme }) => css`

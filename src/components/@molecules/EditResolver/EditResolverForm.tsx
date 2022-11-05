@@ -3,7 +3,7 @@ import { RefObject } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Input, RadioButton, Typography } from '@ensdomains/thorin'
+import { Input, RadioButton, Typography } from '@epdomains/themey'
 
 import { Spacer } from '@app/components/@atoms/Spacer'
 import { Outlink } from '@app/components/Outlink'

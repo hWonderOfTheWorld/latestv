@@ -12,7 +12,7 @@ import useTransition, { TransitionState } from 'react-transition-state'
 import styled, { css } from 'styled-components'
 
 import { parseInputType, validateName } from '@ensdomains/ensjs/utils/validation'
-import { BackdropSurface, Portal, Typography, mq } from '@ensdomains/thorin'
+import { BackdropSurface, Portal, Typography, mq } from '@epdomains/themey'
 
 import { useLocalStorage } from '@app/hooks/useLocalStorage'
 import { useBreakpoint } from '@app/utils/BreakpointProvider'

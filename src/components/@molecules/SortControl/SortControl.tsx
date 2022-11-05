@@ -2,7 +2,7 @@ import React, { ChangeEvent } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled, { css } from 'styled-components'
 
-import { Button, Select, mq } from '@ensdomains/thorin'
+import { Button, Select, mq } from '@epdomains/themey'
 
 import DownDirectionSVG from '@app/assets/DownDirection.svg'
 import UpDirectionSVG from '@app/assets/UpDirection.svg'

@@ -1,7 +1,6 @@
 import { ReactNode } from 'react'
 import styled, { css } from 'styled-components'
-
-import { ExclamationSVG, Typography } from '@ensdomains/thorin'
+import { ExclamationSVG, Typography } from '@epdomains/themey'
 
 const ErrorIcon = styled.div(
   ({ theme }) => css`
